@@ -1,3 +1,2 @@
-pyspark
 flask
-pandas
+gunicorn

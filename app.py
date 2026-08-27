@@ -116,6 +116,7 @@ def carriers():
     return jsonify([{"carrier": r[0], "total_orders": r[1], "late_orders": r[2]} for r in rows])
 
 
+create_database()
+
 if __name__ == "__main__":
-    create_database()
     app.run(debug=True)
