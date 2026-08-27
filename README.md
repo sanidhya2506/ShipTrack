@@ -1,7 +1,10 @@
-````markdown
 # ShipTrack 📦
 
 A shipment analytics dashboard that processes shipping data with PySpark, stores it in SQLite, and visualizes it through a Flask-powered web dashboard.
+
+## Live Demo
+
+🌐 **[View ShipTrack Dashboard](https://shiptrack-f94f.onrender.com/)**
 
 ## Overview
 
@@ -59,8 +62,8 @@ ShipTrack/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/shiptrack-dashboard.git
-cd shiptrack-dashboard
+git clone https://github.com/sanidhya2506/ShipTrack.git
+cd ShipTrack
 ```
 
 ### 2. Set up a virtual environment
@@ -90,7 +93,9 @@ This reads `data/shipments.csv`, processes it, and saves the result to `output/p
 python app.py
 ```
 
-Then open http://127.0.0.1:5000 in your browser.
+Then open:
+
+**http://127.0.0.1:5000**
 
 ## Dashboard Preview
 
@@ -100,6 +105,12 @@ The dashboard shows:
 * Average delivery time
 * Warehouse-by-warehouse performance
 * Carrier-by-carrier performance
+
+## Live Deployment
+
+The dashboard is deployed on Render and can be accessed here:
+
+**https://shiptrack-f94f.onrender.com/**
 
 ```
 ```
